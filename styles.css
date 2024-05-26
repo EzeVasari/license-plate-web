@@ -1,26 +1,147 @@
+/* Variables de color para dark mode */
+:root {
+  --bg-color: #1e1e1e;
+  --text-color: #f1f1f1;
+  --input-color: #2b2b2b;
+  --button-color: #6b34c8;
+  --button-hover: #8b5cf6;
+  --checkbox-color: #6b34c8;
+}
+
 /* Estilos para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  background-color: var(--bg-color);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Estilos para el título */
+h1 {
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.checkbox-container input:checked {
+  accent-color: var(--checkbox-color);
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group input:last-child {
+  margin-right: 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Estilos para la alerta en modo oscuro */
+
+.alert-success {
+  background-color: #2e7d32;
+  color: #1e1e1e;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
+
+/* Estilos para la alerta de error */
+.alert-error {
+  background-color: #c62828;
+  color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
+
+/* Estilos para el resultado */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
   }
-  
-  /* Estilos para el título */
-  h1 {
-    color: #333;
+
+  .input-group {
+    flex-direction: column;
   }
-  
-  /* Estilos para las etiquetas y campos de entrada */
-  label {
-    display: block;
-    margin-top: 10px;
+
+  .input-group input {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
-  
-  input[type="text"], button {
-    margin-top: 5px;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 350px;
   }
-  
-  /* Estilos para el resultado */
-  #result {
-    margin-top: 20px;
-    font-weight: bold;
-  }
+}

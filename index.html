@@ -3,16 +3,40 @@
 
 <head>
     <title>Determinar Año de Patente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+
 </head>
 
 <body>
-    <h1>Determinar Año de Patente</h1>
-    <label for="patentInput">Ingrese la patente:</label>
-    <input type="text" id="patentInput">
-    <button onclick="determinarAnio()">Determinar Año</button>
-    <div id="result"></div>
+    <div class="container">
+        <h1>Año por patente</h1>
+        <label class="checkbox-container">
+            <input type="checkbox" id="checkbox"> Patente nueva
+        </label>
+        <div id="input1-container">
+            <label for="input1">Ingresa las primeras 3 letras:</label>
+            <input type="text" id="input1" maxlength="3" pattern="[a-zA-Z]{3}" title="Ingrese 3 letras"
+                placeholder="ABC" required>
+        </div>
+        <div id="input2-container" style="display: none;">
+            <label for="input2">Ingrese las 2 letras y los 3 números:</label>
+            <div class="input-group">
+                <input type="text" id="input2" maxlength="2" pattern="[a-zA-Z]{2}" title="Ingrese 2 letras"
+                    placeholder="AB" required>
+                <input type="text" id="input3" maxlength="3" pattern="\d{3}" title="Ingrese 3 números" placeholder="123"
+                    required>
+            </div>
+        </div>
+        <button onclick="determinarAnio()">Enviar</button>
+        <div id="result" class="alert-success"></div>
+        <div id="error-result" class="alert-error"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
