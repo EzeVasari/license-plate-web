@@ -1,0 +1,26 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Estilos para el título */
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilos para las etiquetas y campos de entrada */
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], button {
+    margin-top: 5px;
+  }
+  
+  /* Estilos para el resultado */
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }

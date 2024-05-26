@@ -1,0 +1,184 @@
+{
+    "patentes": [
+        {
+            "patente": "AAA",
+            "anio": 1995,
+            "rango": ["AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO"]
+        },
+        {
+            "patente": "AP",
+            "anio": 1996,
+            "rango": ["AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC"]
+        },
+        {
+            "patente": "BD",
+            "anio": 1997,
+            "rango": ["BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT"]
+        },
+        {
+            "patente": "BU",
+            "anio": 1998,
+            "rango": ["BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL"]
+        },
+        {
+            "patente": "CM",
+            "anio": 1999,
+            "rango": ["CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ", "DA", "DB"]
+        },
+        {
+            "patente": "DC",
+            "anio": 2000,
+            "rango": ["DC", "DD", "DE", "DF", "DG", "DH", "DI", "DJ", "DK", "DL", "DM", "DN"]
+        },
+        {
+            "patente": "DO",
+            "anio": 2001,
+            "rango": ["DO", "DP", "DQ", "DR", "DS", "DT", "DU", "DV", "DW"]
+        },
+        {
+            "patente": "DX",
+            "anio": 2002,
+            "rango": ["DX", "DY", "DZ", "EA", "EB", "EC"]
+        },
+        {
+            "patente": "ED",
+            "anio": 2003,
+            "rango": ["ED", "EE", "EF", "EG", "EH"]
+        },
+        {
+            "patente": "EI",
+            "anio": 2004,
+            "rango": ["EI", "EJ", "EK", "EL", "EM", "EN", "EO", "EP", "EQ", "ER", "ES"]
+        },
+        {
+            "patente": "ET",
+            "anio": 2005,
+            "rango": ["ET", "EU", "EV", "EW", "EX", "EY", "EZ", "FA", "FB", "FC", "FD", "FE", "FF", "FG", "FH"]
+        },
+        {
+            "patente": "FI",
+            "anio": 2006,
+            "rango": ["FI", "FJ", "FK", "FL", "FM", "FN", "FO", "FP", "FQ", "FR", "FS", "FT", "FU", "FV", "FW", "FX", "FY", "FZ", "GA"]
+        },
+        {
+            "patente": "GB",
+            "anio": 2007,
+            "rango": ["GB", "GC", "GD", "GE", "GF", "GG", "GH", "GI", "GJ", "GK", "GL", "GM", "GN", "GO", "GP", "GQ", "GR", "GS", "GT", "GU"]
+        },
+        {
+            "patente": "GV",
+            "anio": 2008,
+            "rango": ["GV", "GW", "GX", "GY", "GZ", "HA", "HB", "HC", "HD", "HE", "HF", "HG", "HH", "HI", "HJ", "HK", "HL", "HM", "HN", "HO", "HP", "HQ", "HR", "HS"]
+        },
+        {
+            "patente": "HT",
+            "anio": 2009,
+            "rango": ["HT", "HU", "HV", "HW", "HX", "HY", "HZ", "IA", "IB", "IC", "ID", "IE", "IF", "IG", "IH", "II", "IJ", "IK", "IL"]
+        },
+        {
+            "patente": "IM",
+            "anio": 2010,
+            "rango": ["IM", "IN", "IO", "IP", "IQ", "IR", "IS", "IT", "IU", "IV", "IW", "IX", "IY", "IZ", "JA", "JB", "JC", "JD", "JE", "JF", "JG", "JH", "JI", "JJ", "JK", "JL", "JM"]
+        },
+        {
+            "patente": "JN",
+            "anio": 2011,
+            "rango": ["JN", "JO", "JP", "JQ", "JR", "JS", "JT", "JU", "JV", "JW", "JX", "JY", "JZ", "KA", "KB", "KC", "KD", "KE", "KF", "KG", "KH", "KI", "KJ", "KK", "KL", "KM", "KN", "KO", "KP", "KQ", "KR", "KS", "KT"]
+        },
+        {
+            "patente": "KU",
+            "anio": 2012,
+            "rango": ["KU", "KV", "KW", "KX", "KY", "KZ", "LA", "LB", "LC", "LD", "LE", "LF", "LG", "LH", "LI", "LJ", "LK", "LL", "LM", "LN", "LO", "LP", "LQ", "LR", "LS", "LT", "LU", "LV", "LW", "LX", "LY", "LZ", "MA"]
+        },
+        {
+            "patente": "MB",
+            "anio": 2013,
+            "rango": ["MB", "MC", "MD", "ME", "MF", "MG", "MH", "MI", "MJ", "MK", "ML", "MM", "MN", "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NB", "NC", "ND", "NE", "NF", "NG", "NH", "NI", "NJ", "NK"]
+        },
+        {
+            "patente": "NM",
+            "anio": 2014,
+            "rango": ["NM", "NN", "NO", "NP", "NQ", "NR", "NS", "NT", "NU", "NV", "NW", "NX", "NY", "NZ", "OA", "OB", "OC", "OD", "OE", "OF", "OG", "OH", "OI", "OJ", "OK", "OL", "OM"]
+        },
+        {
+            "patente": "ON",
+            "anio": 2015,
+            "rango": ["ON", "OO", "OP", "OQ", "OR", "OS", "OT", "OU", "OV", "OW", "OX", "OY", "OZ", "PA", "PB", "PC", "PD", "PE", "PF", "PG", "PH", "PI", "PJ", "PK", "PL"]
+        },
+        {
+            "patente": "PM",
+            "anio": 2016,
+            "rango": ["PM", "PN", "PO", "PQ", "PR", "PS", "PT", "PU", "PV", "PW", "PX", "PY", "PZ"]
+        },
+        {
+            "patente": "AA-000",
+            "anio": "Abril de 2016",
+            "rango": ["0-899"]
+        },
+        {
+            "patente": "AA-900",
+            "anio": "Enero de 2017",
+            "rango": ["900-999"]
+        },
+        {
+            "patente": "AB-000",
+            "anio": "Febrero de 2017",
+            "rango": ["0-999"]
+        },
+        {
+            "patente": "AC-000",
+            "anio": "Noviembre  de 2017",
+            "rango": ["0-199"]
+        },
+        {
+            "patente": "AC-200",
+            "anio": "Enero de 2018",
+            "rango": ["200-999"]
+        },
+        {
+            "patente": "AD-000",
+            "anio": "Julio de 2018",
+            "rango": ["0-399"]
+        },
+        {
+            "patente": "AD-400",
+            "anio": "Enero de 2019",
+            "rango": ["400-999"]
+        },
+        {
+            "patente": "AE-000",
+            "anio": "Octubre de 2019",
+            "rango": ["0-99"]
+        },
+        {
+            "patente": "AE-100",
+            "anio": 2020,
+            "rango": ["100-599"]
+        },
+        {
+            "patente": "AE-600",
+            "anio": "Enero de 2021",
+            "rango": ["600-999"]
+        },
+        {
+            "patente": "AF-000",
+            "anio": "Agosto de 2021",
+            "rango": ["0-599"]
+        },
+        {
+            "patente": "AF-600",
+            "anio": 2022,
+            "rango": ["600-769"]
+        },
+        {
+            "patente": "AF-770",
+            "anio": 2023,
+            "rango": ["770-999"]
+        },
+        {
+            "patente": "AG-000",
+            "anio": 2024,
+            "rango": ["0-999"]
+        }
+    ]
+}
